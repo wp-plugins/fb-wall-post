@@ -13,7 +13,7 @@ This plugin helps to display latest feeds of your Facebook page on the site.
 You can also display the feeds of your facebook page either in grid mode or list mode.
 After installing this plugin,using shortcode on page will list all posts of facebook page
 
-== Features ==
+<strong>Features</strong>
 1. Grid view mode of posts
 2. List view mode of posts
 3. Adjust your facebook App Id, App Key, Page Id from admin
