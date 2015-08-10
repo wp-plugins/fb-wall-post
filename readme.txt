@@ -14,10 +14,11 @@ You can also display the feeds of your facebook page either in grid mode or list
 After installing this plugin,using shortcode on page will list all posts of facebook page
 
 <strong>Features</strong>
-1. Grid view mode of posts
-2. List view mode of posts
-3. Adjust your facebook App Id, App Key, Page Id from admin
-4. Easy to customize
+
+* Grid view mode of posts
+* List view mode of posts
+* Adjust your facebook App Id, App Key, Page Id from admin
+* Easy to customize
 
 == Screenshots ==
 
