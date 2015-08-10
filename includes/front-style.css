@@ -1,0 +1,100 @@
+/*=======================front style start======================*/
+
+/*=======================LIST MODE CSS START======================*/
+.fb-feed-list-view li {
+    /*border-bottom: 1px dotted #ccc;*/
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin: 0 0 14px !important;
+    padding: 14px 0;
+    width: 100%;
+}
+
+.fb-feed-list-view li .img_box {
+    float: right;
+    height: 210px;
+    width: 30%;
+}
+
+.fb-feed-list-view li .img_box img {
+    height: 100%;
+    width: 100%;
+}
+
+.fb-feed-list-view li .product_box {
+    padding: 0 15px;
+}
+
+.product_box .img_box a img{
+	box-shadow:none;
+}
+
+
+.fb-feed-list-view li .product_box .content {
+    float: left;
+    width: 65%;
+}
+
+.fb-feed-list-view li .product_box .contant_box1 {
+    font-size: 13px;
+}
+
+/*=======================LIST MODE CSS END======================*/
+
+/*=======================GRID CSS START======================*/
+.col-main > ul#gridfbfeed {
+    margin:25px auto 0;
+    max-width: 1167px;
+    min-height: 960px;
+	position:relative;
+    
+    overflow-y: auto;
+}
+.col-main > ul#fbfeed {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+#gridfbfeed .product_box {
+    /*border: 1px solid #ccc;*/
+    display: inline-block;
+    padding: 15px;
+}
+
+#gridfbfeed li {
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 0;
+    max-width: 220px;
+    vertical-align: top;
+    width: 220px;
+}
+#gridfbfeed li:nth-child(4){margin-right:0;}
+.product_box {
+    /*border: 1px solid #ccc;*/
+}
+#gridfbfeed li .img_box img {
+    width: 100%;
+}
+
+#gridfbfeed .content .contant_box1 {
+    font-size: 13px;
+}
+#gridfbfeed .product_box .img_box a {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.fb-feed-grid-view {
+    position: relative;
+}
+
+.fb-feed-grid-view {
+    display: block;
+    height: 850px;
+    min-height: 100%;
+    overflow: scroll;
+    position: relative;
+}
+/*=======================GRID CSS END======================*/
+/*=======================front style end======================*/
